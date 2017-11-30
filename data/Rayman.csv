@@ -1,0 +1,15 @@
+score_phrase,title,url,platform,score,genre,editors_choice,release_year,release_month,release_day,Global_Sales
+Good,Rayman,/games/rayman/ps-69,PlayStation,7.0,Platformer,N,1996,11,25,3.03
+Amazing,Rayman 2: The Great Escape,/games/rayman-2-revolution/pc-10732,PC,9.2,Platformer,Y,1999,11,18,0.64
+Great,Rayman 2: Revolution,/games/rayman-2-revolution/ps2-14858,PlayStation 2,8.8,Platformer,Y,2001,2,5,0.3
+Amazing,Rayman Advance,/games/rayman/gba-15895,Game Boy Advance,9.0,Platformer,Y,2001,6,14,0.5
+Awful,Rayman Arena,/games/rayman-arena/xbox-16338,Xbox,3.8,Battle,N,2002,10,14,0.6
+Amazing,Rayman 3,/games/rayman-3/gba-482163,Game Boy Advance,9.0,Platformer,Y,2003,3,5,0.14
+Great,Rayman 3: Hoodlum Havoc,/games/rayman-3/xbox-478845,Xbox,8.4,Action,Y,2003,3,19,0.29
+Okay,Rayman: Hoodlum's Revenge,/games/rayman-hoodlums-revenge/gba-728843,Game Boy Advance,6.5,Action,N,2005,4,29,0.06
+Okay,Rayman DS,/games/rayman-2-revolution/nds-682873,Nintendo DS,6.0,Platformer,N,2005,3,22,0.26
+Great,Rayman Raving Rabbids,/games/rayman-raving-rabbids/wii-821585,Wii,8.3,Party,Y,2006,11,16,1.44
+Okay,Rayman Raving Rabbids 2,/games/rayman-raving-rabbids-2/wii-903778,Wii,6.3,Party,N,2007,11,13,1.85
+Mediocre,Rayman 3D,/games/rayman-2-revolution/3ds-98030,Nintendo 3DS,5.5,Platformer,N,2011,3,27,0.64
+Amazing,Rayman Origins,/games/rayman-origins/wii-77707,Wii,9.5,Platformer,Y,2011,11,9,1.03
+Amazing,Rayman Legends,/games/rayman-legends/xbox-360-159979,Xbox 360,9.5,Platformer,Y,2013,8,26,1.01
