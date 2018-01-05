@@ -1,8 +1,0 @@
-score_phrase,title,url,platform,score,genre,editors_choice,release_year,release_month,release_day,Global_Sales
-Good,Doom (1993),/games/doom/ps-671,PlayStation,7.0,Shooter,N,1996,11,21,0.0
-Good,Doom 64,/games/doom/n64-503,Nintendo 64,7.4,Shooter,N,1997,1,28,0.47
-Good,Doom II,/games/doom-2/gba-482112,Game Boy Advance,7.8,Shooter,N,2002,11,13,0.0
-Great,Doom 3,/games/doom-3/pc-14934,PC,8.9,Shooter,Y,2004,8,5,1.34
-Great,Doom Resurrection,/games/doom-resurrection/iphone-787,iPhone,8.0,Shooter,N,2009,6,29,0.0
-Great,Doom II RPG,/games/doom-ii-rpg/iphone-61127,iPhone,8.0,RPG,N,2010,2,10,0.0
-Good,Doom,/games/doom-4/pc-14252444,PC,7.1,Shooter,N,2016,5,16,0.78
