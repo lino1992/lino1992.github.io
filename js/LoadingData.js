@@ -17,6 +17,15 @@ var adventure_game = [];
 var racing_game = [];
 var fighting_game = [];
 var shooter_game = [];
+var all_game = [];
+
+var list_game = [ 'Batman', 'Uncharted', 'God of War', 'Ninja Gaiden',"Assassin's Creed",'Devil May Cry',
+    'Need for Speed', 'Burnout', 'Gran Turismo', 'Forza Horizon', 'Midnight Club',
+    'Doom', 'Halo', 'Wolfenstein', 'Call of Duty','Battlefield',"Tom Clancy's Ghost",
+    'Tekken', 'Street Fighter', 'Capcom', 'Mortal Kombat', 'BlazBlue',
+    'Zelda','Tomb Raider', 'Uncharted', 'Rayman'
+]
+
 
 function init(){
     load_json(function(response){
@@ -43,6 +52,12 @@ function init(){
         var actual_Json = JSON.parse(response)
         fighting_game = actual_Json;
     }, 'Fighting/Fighting_franchise.json')
+    for (index = 0; index < list_game.length; ++index){
+        load_json(function (response) {
+            var actual_Json = JSON.parse(response)
+            all_game.push(actual_Json);
+        }, 'Data_json/' + list_game[index].toString() + '.json')
+    }
 }
 
 init();

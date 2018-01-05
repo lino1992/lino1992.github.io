@@ -1,0 +1,11 @@
+score_phrase,title,url,platform,score,genre,editors_choice,release_year,release_month,release_day,Global_Sales
+Amazing,Battlefield 1942,/games/battlefield-1942/pc-16787,PC,9.3,Shooter,Y,2002,9,16,0.03
+Great,Battlefield Vietnam,/games/battlefield-vietnam/pc-568737,PC,8.2,Shooter,N,2004,3,16,0.03
+Great,Battlefield 2,/games/battlefield-2/pc-677882,PC,8.9,Shooter,Y,2005,6,19,0.08
+Great,Battlefield 2142,/games/battlefield-2142/pc-819222,PC,8.4,Shooter,N,2006,10,20,0.03
+Great,Battlefield: Bad Company,/games/battlefield-bad-company/xbox-360-713943,Xbox 360,8.6,Shooter,Y,2008,6,20,1.46
+Great,Battlefield 1943,/games/battlefield-1943/ps3-14320735,PlayStation 3,8.5,Shooter,Y,2009,7,7,0.0
+Great,Battlefield: Bad Company 2,/games/battlefield-bad-company-2/xbox-360-14293277,Xbox 360,8.9,Shooter,Y,2010,2,26,3.48
+Amazing,Battlefield 3,/games/battlefield-3/pc-14209865,PC,9.0,Shooter,Y,2011,10,24,7.34
+Great,Battlefield 4,/games/battlefield-4/xbox-one-161397,Xbox One,8.5,Shooter,N,2013,11,26,3.69
+Great,Battlefield Hardline,/games/battlefield-hardline/ps4-20019571,PlayStation 4,8.0,Shooter,N,2015,3,17,0.0
