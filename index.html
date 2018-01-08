@@ -16,14 +16,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-<div class="row">
+<div class="row" id="general_div">
     <div class="col-sm-1"></div>
     <div class="col-sm-8">
         <h1 align="center" style="margin-top: 20px;">Game development from 1996 till 2016</h1>
         <div class="row" >
             <div class="col-sm-2"></div>
             <div class="col-sm-10" id="general_information">
-                <p  style="font-style: italic; color: #8C1212;">The game industry is a multi-million business. The yearly revenue is steadly increasing.In 2015 the revenue was at 71.27 billion and in 2016 it rise to 74.99 billion.
+                <p  style="font-style: italic;">The game industry is a multi-million business. The yearly revenue is steadly increasing.In 2015 the revenue was at 71.27 billion and in 2016 it rise to 74.99 billion.
                 So, which factor have an impact to the yearly revenue? For this question we are going to look at the game score in conjunction with game sale. IGN is the source of the score<br>
                 But, firstly what is show in the graph below? And can you make some sense off these information? <br>
                 The answer would be, No! So let filter out some information, let see the score number only</p>
@@ -32,7 +32,7 @@
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-10" id="game_score" style="display: none;">
-                <p  style="font-style: italic; color: #8C1212;"> If we look at the average game score we would see that there are some peak from 1996 till 2016. These are the case for every genre. But the score is always between 5 and 8.5.<br>
+                <p  style="font-style: italic; color: #4CAF50;"> If we look at the average game score we would see that there are some peak from 1996 till 2016. These are the case for every genre. But the score is always between 5 and 8.5.<br>
                 So base off this chart we can assume that in a few year there will be a new game score peak. <br>
                 Now that saw the score let check the sale number!
             </div>
@@ -40,57 +40,62 @@
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-10" id="sale_number" style="display: none;">
-                <p  style="font-style: italic;color: #8C1212;">
+                <p  style="font-style: italic;color: #008CBA;">
                     If we look at the sale number per genre we can see that number is dropping. This is because we are looking that sale number of game and not what revenue per year is.<br>
                     In general every genre is dropping in sale, but the adventure seems to have a steadly sale. The adventure genre also has to lowest sale per year.<br>
                     So with thia information we could say that the sale of new game for the next several year is not going to be great!
                 </p>
             </div>
         </div>
-        <div class="row" style="position: absolute; margin-top: 400px;">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-8" id="action_general" style="display: none;">
-                <p>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10" id="action_general" style="display: none;">
+                <h4>Action genre</h4>
+                <p style="font-style: italic;color: #8C1212;">
                     With action genre even though the score is rising it seems that the sale is dropping. But can this also be seen in the games that has franchise?
                     <br>
                     scroll down to see the specific action game!
                 </p>
             </div>
         </div>
-        <div class="row" style="position: absolute; margin-top: 400px;">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-8" id="adventure_general" style="display: none;">
-                <p>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10" id="adventure_general" style="display: none;">
+                <h4>General genre</h4>
+                <p style="font-style: italic;color: #3E7506;">
                     With adventure genre the score and the sale seems to be stable but not in sync wih each other. So, what is there to see in the franchise?
                     <br>
                     scroll down to see the specific adventure game!
                 </p>
             </div>
         </div>
-        <div class="row" style="position: absolute; margin-top: 400px;">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-8"  id="racing_general" style="display: none;">
-            <p>
+        <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-10"  id="racing_general" style="display: none;">
+            <h4>Racing genre</h4>
+            <p style="font-style: italic;color: #088787;">
                 Also here it seems that genre racing has become more populair, but the sale in general is still dropping.
                 <br>
                 scroll down to see the specific racing game!
             </p>
         </div>
         </div>
-        <div class="row" style="position: absolute; margin-top: 400px;">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-8" id="shooter_general" style="display: none;">
-                <p>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10" id="shooter_general" style="display: none;">
+                <h4>Shooter genre</h4>
+                <p style="font-style: italic;color: #806409;">
                     The genre shooter seems to have a up-wards trends line in sale, can this also be seen with franchise game.
                     <br>
                     scroll down to see the specific shooter game!
                 </p>
             </div>
         </div>
-        <div class="row" style="position: absolute; margin-top: 400px;">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-8" id="fighting_general" style="display: none;">
-                <p>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10" id="fighting_general" style="display: none;">
+                <h4>Fighting genre</h4>
+                <p style="font-style: italic;color: #460B80;">
                     The genre shooter seems to be more influenceable by the score than other genre, and what can we see in the franchise.
                     <br>
                     scroll down to see the specific fighting game!
@@ -127,56 +132,67 @@
                     <li id="button_fighting" style="display: none">
                         <button class="buttonFighting" onclick="fighting_click(); selectFighting();">Fighting</button>
                     </li>
+                    <li id="button_end" style="display: none">
+                        <button class="buttonEnd" onclick="end_click()">End</button>
+                    </li>
 
                 </ul>
             </div>
         </div>
     </div>
 </div>
-<div class="row">
+<div class="row" id="franchise_div">
     <div class="col-sm-1"></div>
     <div class="col-sm-8">
         <h3 align="center" style="margin-top: 50px;">Game franchise</h3>
+        <h6 align="center">
+            First off, when the sale is at zero, this is because the sale number is not known in the datasets.<br>
+            Click on difference legends to see the sale and score number per franchise!!!
+        </h6>
         <canvas id="franchiseChart"></canvas>
         <script src="js/Genre_Franchise.js"></script>
     </div>
     <div class="col-sm-3">
         <h3 align="center" style="margin-top: 50px;">Conclusion</h3>
         <div class="row">
-            <p id="action_conlusion" style="display: none">
-                First off, when the sale is at zero, this is because the sale number is not known in the datasets.<br><br>
+            <p id="action_conlusion" style="display: none; color: #8C1212;">
                 If we look at the individuals franchise game and the score(not the average score),
                 we can see that there is a correlation between score and sale, even though it doesn't match 100%.<br>
                 When the score rise most of the time the sale will also rise. And vice versa<br><br>
                 So, inclusion sale number can be predicted with the score, as long as game has a franchise and is in a action genre.
             </p>
-            <p id="adventure_conlusion" style="display: none">
-                First off, when the sale is at zero, this is because the sale number is not known in the datasets.<br><br>
+            <p id="adventure_conlusion" style="display: none; color:#3E7506;">
                 With this franchise for the games like uncharted and Zelda we can see that there is correlation between sale and score.<br>
                 With Uncharted that sale and score is behaving in similar manner. And with Zelda only the last few year show the best correlation.<br><br>
                 So, inclusion sale number and score has a connection with each other.
             </p>
-            <p id="racing_conlusion" style="display: none">
-                First off, when the sale is at zero, this is because the sale number is not known in the datasets.<br><br>
+            <p id="racing_conlusion" style="display: none; color:#088787;">
                 It seems that with the franchise racing the score and sale doesn't really has a match with each other.
                 When we take a look at the individuals game franchise the pattern of sale and score seems to be off.<br><br>
                 So, with that be said we can assume that the racing genre with franchise doesn't have a good correlation.
                 It can be that game is more of fan base.
             </p>
-            <p id="shooter_conlusion" style="display: none">
-                First off, when the sale is at zero, this is because the sale number is not known in the datasets.<br><br>
+            <p id="shooter_conlusion" style="display: none; color:#806409;">
                 In general the score and sale in game franchise in shooter does have a matching pattern.
                 But if we look at game like call of duty it seems that this franchise is very sensitive too the score of game.
                 <br><br>
                 So, inclusion just like action and adventure the score does have an affect on the sale number.
                 But some franchise seems to be more sensitive than other franchise.
             </p>
-            <p id="fighting_conlusion" style="display: none">
-                First off, when the sale is at zero, this is because the sale number is not known in the datasets.<br><br>
+            <p id="fighting_conlusion" style="display: none; color:#460B80">
                 It seems that the only game franchise that the sale and score has the same pattern seems to be Tekken.
                 So, with these information it shows that only some game is influenceable by the score.
             </p>
         </div>
+    </div>
+</div>
+<div class="row" id="end_div" style="display: none">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-10">
+        <h3 style="margin-left: 15%; margin-top: 30%;">
+            In conclusion franchise in action and adventure genre has a better co-relation with sale and score. If you going to invest in game franchise base of game score, it is better to do so with these genre.<br>
+            This doesn't mean that you should avoid other franchise, it is just that with other franchise your game should have a stable fans base.
+        </h3>
     </div>
 </div>
 

@@ -228,8 +228,13 @@ function fighting_click(){
     myChart.getDatasetMeta(9).hidden=true;
     myChart.update();
     displayText(7);
-    displayButton(0);
+    displayButton(8);
     displayConclusion(5);
+}
+function end_click(){
+    document.getElementById('general_div').style.display = 'none';
+    document.getElementById('franchise_div').style.display = 'none';
+    document.getElementById('end_div').style.display = 'inline';
 }
 function displayText(number){
     document.getElementById('general_information').style.display = 'none';
@@ -272,6 +277,7 @@ function displayButton(number){
     document.getElementById('button_racing').style.display = 'none';
     document.getElementById('button_shooter').style.display = 'none';
     document.getElementById('button_fighting').style.display = 'none';
+    document.getElementById('button_end').style.display = 'none';
     switch (number){
         case 1:
             document.getElementById('button_game_score').style.display = 'inline';
@@ -293,6 +299,9 @@ function displayButton(number){
             break;
         case 7:
             document.getElementById('button_fighting').style.display = 'inline';
+            break;
+        case 8:
+            document.getElementById('button_end').style.display = 'inline';
             break;
     }
 }
